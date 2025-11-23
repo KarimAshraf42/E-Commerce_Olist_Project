@@ -1,0 +1,6 @@
+models:
+  - name: stg_customers
+    columns:
+      - name: customer_zip_code_prefix
+        tests:
+          - five_digit_zip 
